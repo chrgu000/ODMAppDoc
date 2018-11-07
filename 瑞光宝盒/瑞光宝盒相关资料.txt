@@ -1,0 +1,16 @@
+国内版“瑞光宝盒”App相关资料：
+	QQ登录相关：
+		APP ID：101489627
+		APP Key：a610446f45e4cff2ca8522c4186badb9
+	微信登录和支付相关：
+		id:wxcb34e686399bce9d	
+		客户端秘钥:36e153116a650ca00358c3f8d0ad8f9c
+		商户号：1511887541
+		服务器端秘钥：rgbhc3t4p6hvkt4hy3ugamio5o1lh55r
+		
+	极光推送(IOS需要去平台提交资料、服务器端需要加入此key和秘钥)：
+		key:badea04be40fd5e61707e61e
+		secret:ad0a27a988ddfaa623c79c42
+	
+
+	

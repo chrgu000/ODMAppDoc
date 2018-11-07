@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code-big>1(大版本号，每次启动或每隔一段时间跟App:versionCode对比)</version-code-big>
+	<version-name-big>1.0</version-name-big>
+	<file-size>17MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/EMS/EmsApp.apk</download-url>
+	<version-code-small>2(小版本号，用户手动点击更新跟App:versionCode对比)</version-code-small>
+	<version-name-small>1.1</version-name-small>
+	<file-size-small>17MB</file-size-small>
+	<priority>1</priority>
+	<version-log>
+		<language name="default"></language>
+		<language name="en-US"></language>
+		<language name="zh-CN"></language>
+	</version-log>
+</update>

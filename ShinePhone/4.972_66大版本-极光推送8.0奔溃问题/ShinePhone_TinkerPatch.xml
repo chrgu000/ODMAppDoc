@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>66</version-code>
+	<version-name>4.972</version-name>
+	<file-size>16.8MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-code-small>66</version-code-small>
+	<version-name-small>4.972</version-name-small>
+	<file-size-small>16.8MB</file-size-small>
+	<version-log>
+		<language name="default">1. Fixed some bugs;
+		</language>
+		<language name="en-US">1. Fixed some bugs;
+		</language>
+		<language name="zh-CN">1、修复了一些问题
+		</language>
+	</version-log>
+</update>

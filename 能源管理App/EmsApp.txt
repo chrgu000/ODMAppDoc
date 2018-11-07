@@ -1,0 +1,27 @@
+{
+	"update": {
+		"version-code-big": 1,
+		"version-name-big": "1.0",
+		"file-size-big ": "15MB",
+		"download-url": "http://cdn.growatt.com/apk/EMS/EmsApp.apk",
+		"version-code-small": 2,
+		"version-name-small": "1.1",
+		"file-size-small": "15.1MB",
+		"priority": 1,
+		"version-log": {
+			"language": [{
+					"name": "default",
+					"log": "1. Support shortcut keys to directly copy chat records, paste and send them together. 2. The searched session will specify .3, optimize the performance and experience of the browser's large image. 4. Support shortcut keys to directly copy chat records, after pasting Merge send .5, the searched session will specify .6, optimize the performance and experience of the browser big picture."
+				},
+				{
+					"name": "en-US",
+					"log": "1. Support shortcut keys to directly copy chat records, paste and send them together. 2. The searched session will specify .3, optimize the performance and experience of the browser's large image. 4. Support shortcut keys to directly copy chat records, after pasting Merge send .5, the searched session will specify .6, optimize the performance and experience of the browser big picture."
+				},
+				{
+					"name": "zh-CN",
+					"log": "1、支持快捷键直接复制聊天记录，粘贴后合并发送.2、搜索到的会话将会指定.3、优化了浏览器大图的性能和体验.4、支持快捷键直接复制聊天记录，粘贴后合并发送.5、搜索到的会话将会指定.6、优化了浏览器大图的性能和体验."
+				}
+			]
+		}
+	}
+}

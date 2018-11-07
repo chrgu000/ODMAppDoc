@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>54</version-code>
+	<version-name>4.63</version-name>
+	<file-size>11.02MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-log>
+		<language name="default">1.Replaced the interface style;
+2.Integrated SPF5000;
+3.Integrated ShineWiFi-S;
+4.Updated the new version of OSS system.
+		</language>
+		<language name="en-US">1.Replaced the interface style;
+2.Integrated SPF5000;
+3.Integrated ShineWiFi-S;
+4.Updated the new version of OSS system.
+		</language>
+		<language name="zh-CN">1、全新的界面;
+2、集成了SPF5000;
+3、集成了ShineWiFi-S;
+4、上架了新版OSS系统。
+		</language>
+	</version-log>
+</update>

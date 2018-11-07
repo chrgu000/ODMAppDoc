@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>3</version-code>
+	<version-name>2.1</version-name>
+	<file-size>9.8MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/TaiYY/TaiYY.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/TaiYY/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-log>
+		<language name="default">1. Fix some known issues
+		</language>
+		<language name="en-US">1. Fix some known issues
+		</language>
+		<language name="zh-CN">1.修复一些已知问题
+		</language>
+	</version-log>
+</update>

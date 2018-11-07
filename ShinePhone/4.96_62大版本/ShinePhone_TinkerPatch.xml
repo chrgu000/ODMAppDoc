@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>58</version-code>
+	<version-name>4.96</version-name>
+	<file-size>17.7MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-code-small>62</version-code-small>
+	<version-name-small>4.96</version-name-small>
+	<file-size-small>17.7MB</file-size-small>
+	<version-fast>0</file-size-small>
+	<version-log>
+		<language name="default">1. The energy storage system adds device switching function;
+2. Added Polish translation;
+3. Optimized equipment and energy storage interface;
+4. Fixed some bugs.
+		</language>
+		<language name="en-US">1. The energy storage system adds device switching function;
+2. Added Polish translation;
+3. Optimized equipment and energy storage interface;
+4. Fixed some bugs.
+		</language>
+		<language name="zh-CN">1.储能系统添加了设备切换功能;
+2.添加了波兰语翻译;
+3.优化了设备、储能界面;
+4.修复了一些BUG;
+		</language>
+	</version-log>
+</update>

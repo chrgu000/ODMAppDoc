@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>56</version-code>
+	<version-name>4.70</version-name>
+	<file-size>11.5MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-log>
+		<language name="default">1.Add monitoring function of MIX,
+2.Add monitoring function of MAX,
+3.Add local debugging tools of MAX.
+		</language>
+		<language name="en-US">1.Add monitoring function of MIX,
+2.Add monitoring function of MAX,
+3.Add local debugging tools of MAX.
+		</language>
+		<language name="zh-CN">1、添加GPRS流量续费功能；
+2、添加MIX远程监控功能；
+3、添加MAX远程监控功能；
+4、添加MAX本地调试工具。
+		</language>
+	</version-log>
+</update>

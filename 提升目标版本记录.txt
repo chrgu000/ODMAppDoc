@@ -1,0 +1,173 @@
+Android各版本适配的关键点如下：
+
+Android N (7.0)
+
+1.私有文件访问权限更改
+2.多窗口支持（分屏显示）
+
+
+Android O(8.0)
+
+1.通知渠道
+2.启动图标
+
+
+
+适配记录：
+
+
+7.0
+
+1.私有文件访问权限更改
+
+这一点对于主要是对拍照功能的影响。
+需要改动的文件：
+
+res/xml：
+
+file_provider_paths.xml
+
+activity：
+PutinV2Activity.java
+PlantImagesActivity
+NewPlantImagesActivity
+
+fragment:
+fragment4.java
+
+
+ossactivity 
+  v3
+  OssPlantManagerDeticalEditActivity.java
+OssGDDeticalActivity.java
+OssGDReplyQues2Activity.java
+OssGDReplyQuesActivity.java
+
+
+AndroidManifest.xml
+
+声明这个组件
+
+<provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.alena.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+需要添加的文件：
+PhotoUtil.java
+
+
+具体改动：参照BSPandroid8.0的对应文件。
+
+
+
+2.多窗口支持（分屏显示）
+
+改为不支持：
+
+在AndroidManifest.xml中的
+
+application标签下添加：android:resizeableActivity="false"
+
+
+
+8.0
+
+1.通知渠道
+极光推送，收到推送消息不能显示通知栏
+
+升级极光推送
+main设置别名
+
+ JPushInterface.setAlias(MainActivity.this, Cons.userBean.getAccountName(), new TagAliasCallback() {
+
+            @Override
+            public void gotResult(int arg0, String alias, Set<String> tags) {
+                if (arg0 == 0) {
+                    System.out.println("设置别名成功");
+                    System.out.println(arg0);
+                    System.out.println(alias);
+                } else {
+                    System.out.println("设置别名失败");
+                }
+            }
+        });
+
+设置标签
+Set<String> tags = new HashSet<String>();
+        tags.add(Cons.userBean.getAccountName());
+  JPushInterface.setTags(MainActivity.this, tags, new TagAliasCallback() {
+
+            @Override
+            public void gotResult(int arg0, String arg1, Set<String> tags) {
+                if (arg0 == 0) {
+                    System.out.println("设置标签成功");
+                    System.out.println(arg0);
+                } else {
+                    System.out.println("设置标签失败");
+                }
+            }
+        });
+
+
+
+需要注销极光推送在DemoBase中
+
+ protected void onResume() {
+        super.onResume();
+        JPushInterface.onResume(this);
+    }
+
+    protected void onPause() {
+        super.onPause();
+        JPushInterface.onPause(this);
+    }
+
+在登录时初始化极光
+  JPushInterface.init(this);
+
+在欢迎页初始化极光
+JPushInterface.init(getApplicationContext());
+
+
+退出时设置别名
+LogoutUtil
+
+logout(Activity act)
+
+
+oss2ServerLogout(Activity act)
+
+
+
+2.启动图标
+
+没有发现异常不用修改
+
+
+
+		if (resultCode == RESULT_OK && requestCode == CODE_GALLERY_REQUEST) {//从相册获取
+			if (data != null){
+				cropImageUri = PhotoUtil.startCropImageAct(this,data.getData());
+			}
+		} else if (resultCode == RESULT_OK && requestCode == CODE_CAMERA_REQUEST) {//拍照
+			cropImageUri = Uri.fromFile(PhotoUtil.getFile());
+			PhotoUtil.startCrop(this,imageUri,cropImageUri);
+		}
+
+		
+	public void takePicture() {
+		imageUri = PhotoUtil.getImageUri(this,PhotoUtil.getFile());
+		PhotoUtil.takePicture(this, imageUri, CODE_CAMERA_REQUEST);
+	}
+
+	public void selectPicture() {
+		PhotoUtil.openPic(this,CODE_GALLERY_REQUEST);
+	}	
+
+

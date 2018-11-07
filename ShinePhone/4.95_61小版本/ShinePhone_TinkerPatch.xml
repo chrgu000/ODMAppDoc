@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>58</version-code>
+	<version-name>4.75</version-name>
+	<file-size>12.1MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-code-small>61</version-code-small>
+	<version-name-small>4.95</version-name-small>
+	<file-size-small>17.5MB</file-size-small>
+	<version-log>
+		<language name="default">1. Added “Home-Watt” system;
+2. Updated login interface;
+3. Added login account memory function;
+4. Changed the energy interface entrance.
+		</language>
+		<language name="en-US">1. Added “Home-Watt” system;
+2. Updated login interface;
+3. Added login account memory function;
+4. Changed the energy interface entrance.
+		</language>
+		<language name="zh-CN">1.更新了登录界面;
+2.添加了微信、QQ第三方登录功能;
+3.添加了登录账号记忆功能;
+4.添加了家庭能管系统;
+		</language>
+	</version-log>
+</update>

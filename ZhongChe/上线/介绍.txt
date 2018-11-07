@@ -1,0 +1,11 @@
+中国中车株洲变流技术国家工程研究中心有限公司，CRRC Zhuzhou Nation Engineering Research Center of Converters Company
+
+一款光伏电站监控客户端软件，可从深圳古瑞瓦特新能源股份有限公司（Growatt）数据中心获取光伏电站的运行参数，如发电量、发电收益、设备状态等，实现电站的远程无线访问。
+目前仅支持在Growatt（深圳古瑞瓦特新能源股份有限公司）光伏数据中心（server.growatt.com）上注册过的电站。
+
+一款光伏电站监控客户端软件
+
+
+    中国中车株洲变流技术国家工程研究中心有限公司(CRRC Zhuzhou Nation Engineering Research Center of Converters Company)的光伏APP。
+    一款光伏电站监控客户端软件，可从中国中车株洲变流技术国家工程研究中心有限公司(CRRC Zhuzhou Nation Engineering Research Center of Converters Company)数据中心获取光伏电站的运行参数，如发电量、发电收益、设备状态等，实现电站的远程无线访问。
+目前仅支持在中国中车株洲变流技术国家工程研究中心有限公司的光伏数据中心（zc.smten.com）上注册过的电站。

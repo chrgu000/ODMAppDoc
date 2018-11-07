@@ -1,0 +1,24 @@
+<en-US>
+1.Add plant management function.
+2. Added “Home-Watt” system;
+3. Updated login interface;
+4. Added login account memory function;
+5. Changed the energy interface entrance.
+6. The energy storage system adds device switching function;
+7. Added Polish translation;
+8. Optimized equipment and energy storage interface;
+9. Fixed some bugs.
+</en-US>
+
+<zh-CN>
+1.添加电站管理功能;
+2.更新了登录界面;
+3.添加了微信、QQ第三方登录功能;
+4.添加了登录账号记忆功能;
+5.添加了家庭能管系统;
+6.储能系统添加了设备切换功能;
+7.添加了波兰语翻译;
+8.优化了设备、储能界面;
+9.修复了一些BUG;
+</zh-CN>
+

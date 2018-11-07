@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version-code>58</version-code>
+	<version-name>4.75</version-name>
+	<file-size>12.1MB</file-size>
+	<download-url>http://cdn.growatt.com/apk/ShinePhone/ShinePhone.apk</download-url>
+	<version-code-tinker>0</version-code-tinker>
+	<download-url-tinker>http://cdn.growatt.com/apk/ShinePhone/ShinePhone_TinkerPatch</download-url-tinker>
+	<version-code-small>58</version-code-small>
+	<version-name-small>4.75</version-name-small>
+	<file-size-small>12.1MB</file-size-small>
+	<version-log>
+		<language name="default">1. The intelligent diagnostic function of MAX has been added.
+2. MIX and SPF5000 have been optimized.
+3. The registration process of foreign countries has been optimized.
+4. Many other functional modules have been optimized.
+		</language>
+		<language name="en-US">1. The intelligent diagnostic function of MAX has been added.
+2. MIX and SPF5000 have been optimized.
+3. The registration process of foreign countries has been optimized.
+4. Many other functional modules have been optimized.
+		</language>
+		<language name="zh-CN">1、添加了MAX智能诊断功能；
+2、优化了MIX、SPF5000；
+3、优化了国外的注册流程；
+4、优化了其他多个功能模块
+		</language>
+	</version-log>
+</update>
